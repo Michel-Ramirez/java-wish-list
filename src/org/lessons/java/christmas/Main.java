@@ -51,6 +51,7 @@ public class Main {
 			System.out.print("Digita regalo: ");
 			String presName = in.nextLine();
 
+			in.close();
 			// PREPATO L'OGGETTO E PASSO I DATI
 			Present p = new Present(presName, receiver);
 
