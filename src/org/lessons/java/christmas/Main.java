@@ -60,8 +60,10 @@ public class Main {
 		System.out.println("Lunghezza Lista: " + wishList.size() + "\n");
 
 		// STAMPO LA LISTA
+
+		System.out.println("Lista completa: \n");
 		for (Present p : wishList) {
-			System.out.println("Lista dei regali: \n" + p.getReceiver() + ": " + p.getPresName());
+			System.out.println(p.getReceiver() + ": " + p.getPresName());
 		}
 
 		// ----- BONUS -------------
